@@ -1,0 +1,14 @@
+// create component
+ng g component pizza-status
+
+// install angularfire firebase
+npm install firebase @angular/fire --save
+
+// install cloud functions
+
+// config functions
+firebase functions:config:set twilio.sid="YOUR_ACCOUNT_SID" twilio.token="YOUR_AUTH_TOKEN"
+
+// install twilio
+npm install twilio --save
+
